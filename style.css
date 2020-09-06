@@ -147,6 +147,128 @@ body{
     position: absolute;
     bottom: 1rem;
     left: 0px;
-    transform: translate(-50%, -50%);
-    
+    transform: translate(-50%, -50%);   
+}
+
+.PesudoClasses button{
+    padding: 2rem 4rem;
+    cursor: pointer;
+}
+.PesudoClasses button:hover{
+    background: lightslategray;
+    padding: 2rem 4rem;
+}
+.PesudoClasses button:focus{
+    background: lime;
+}
+.PesudoClasses input:focus{
+    background: limegreen;
+}
+.PesudoClasses h1{
+    font-size: 4rem;
+}
+.PesudoClasses h1::after{
+    content: "me";
+}
+
+.miniProject>.box4,.miniProject>.box5,.miniProject>.box6 {
+    /* max-width: 60rem; */
+    width: 48%;
+    height: 30rem;
+    border: 2px solid black;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 2.8rem;
+}
+.box5{
+    float: right;
+}
+.box4{
+    float: left;
+}
+.clear{
+    clear: both;
+}
+.miniProject>.box6{
+    width: 100%;
+}
+
+h1{
+    font-size: 2.8rem;
+}
+h2{
+    font-size: 3.6rem;
+    padding: 5rem 0rem;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 2.4rem;
+}
+h3{
+    font-size: 3.8rem;
+}
+button{
+    font-size: 1.8rem;
+}
+nav{
+    background: rgb(48, 50, 172);
+    color: white;
+    padding: 3rem;
+}
+nav h1{
+    float: left;
+}
+nav ul{
+    float: right;
+    list-style: none;
+}
+.clear{
+    clear: both;
+}
+nav li{
+    float: left;
+    margin: 0rem 4rem;
+}
+.hero-section{
+    background-image: url("/pexels-lukas-349609.jpg");
+    height: 80rem;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding-top: 15rem;
+    text-shadow: 3px 3px 10px black;
+}
+.hero-section button{
+    margin-top: 4rem;
+    padding: 1rem 4rem;
+    background: rgb(48, 50, 172);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.form-section{
+    text-align: center;
+}
+form{
+
+}
+form input, form label, form textarea{
+    display: block;
+    font-size: 2.4rem;
+
+}
+form input, form textarea{
+    margin: 2rem auto;
+    width: 50%;
+}
+form button{
+    margin-bottom: 10rem;
+    padding: 1rem 4rem;
+    background: rgb(48, 50, 172);
+    border: none;
+    color: white;
+    cursor: pointer;
+    width: 50%;
 }
